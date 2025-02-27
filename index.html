@@ -3,19 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Yến Nhi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
       rel="stylesheet"
     />
+		<style>
+
+			.footer {
+					background: #222;
+					color: white;
+					padding: 20px 0;
+					text-align: center;
+			}
+
+			.footer-container {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					max-width: 1200px;
+					margin: auto;
+					flex-wrap: wrap;
+					padding: 10px 20px;
+			}
+
+			.footer-logo {
+					font-size: 20px;
+					font-weight: bold;
+			}
+
+			.footer-nav {
+					list-style: none;
+					display: flex;
+			}
+
+			.footer-nav li {
+					margin: 0 10px;
+			}
+
+			.footer-nav a {
+					text-decoration: none;
+					color: white;
+					font-size: 14px;
+					transition: 0.3s;
+			}
+
+			.footer-nav a:hover {
+					color: #f39c12;
+			}
+
+			.social-icons {
+					display: flex;
+			}
+
+			.social-icons a {
+					color: white;
+					margin-left: 10px;
+					font-size: 18px;
+					transition: 0.3s;
+			}
+
+			.social-icons a:hover {
+					color: #f39c12;
+			}
+
+			/* Responsive */
+			@media (max-width: 768px) {
+					.footer-container {
+							flex-direction: column;
+							text-align: center;
+					}
+
+					.footer-nav {
+							margin: 10px 0;
+					}
+			}
+	</style>
   </head>
   <body>
-    <h2 style="color: red; text-align: center">Chắp cánh ước mơ</h2>
-    <h3 style="font-weight: 1000; text-align: center">
-      Báo tường của lớp 12A6 kỉ niệm ngày ra trường
-    </h3>
+    <h2 style="color: red; text-align: center">Nâng cánh tương lai</h2>
     <div
       style="
         border-style: solid;
@@ -48,5 +116,42 @@
         bước, chạm đến những khát vọng tươi sáng phía trước.
       </p>
     </div>
+
+		<div style="display: flex; justify-content: space-between; width: 90%;
+								padding-left: 5%;
+								padding-top: 30px;">
+			<div style="width: 45%;
+									padding: 20px 10px;">
+				<h2 style="text-align: center;">Góc Ảnh</h2>		
+				<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+					<div>
+						<img src="0fd2c4e7-d5a0-4100-baf3-aadc83c707f5.jpg" alt="" 
+									style="width: 100%; height: 35%;">
+						<img src="1f0ca422-4c54-4e00-890f-a715e36206da.jpg" alt="" 
+									style="width: 100%; height: 40%;">			
+					</div>
+					<div>
+						<img src="6dddfa39-05e3-4357-b4b9-576465fd7da3.jpg" alt="" 
+									style="width: 100%; height: 40%;">
+						<img src="ac519eac-98ab-4824-a8a5-136af7c86978.jpg" alt="" 
+									style="width: 100%; height: 50%;">	
+					</div>
+				</div>			
+			</div>
+			<div style="width: 45%; height: 300px;
+									padding: 20px 10px;">
+				<h2 style="text-align: center;">Góc Ảnh</h2>	
+				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/GC-bRoASTpE?si=r1ux_OvWIdRm5dBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-container">
+					<div class="footer-logo">
+						<p>	&#169;2025 - Lớp 12A6</p>
+						<p>Instagram: <a 
+							style="text-decoration: none; color: pink;"
+							href="https://www.instagram.com/_aseven_playpay/">a_seven_playpay</a></p>
+					</div>
+			</div>
+	</footer>
   </body>
 </html>
